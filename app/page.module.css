@@ -1,0 +1,148 @@
+:root {
+  --bg-start: #f7fbff;
+  --bg-end: #eef6ff;
+  --surface: #ffffff;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --border: rgba(15, 23, 42, 0.1);
+  --accent: #2563eb;
+  --accent-soft: #eff6ff;
+  --accent-strong: #06b6d4;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 3rem 1.5rem;
+  background: linear-gradient(135deg, var(--bg-start) 0%, var(--bg-end) 100%);
+  display: flex;
+  justify-content: center;
+}
+
+.page {
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.hero {
+  padding: 0;
+}
+
+.header {
+  max-width: 780px;
+}
+
+.title {
+  font-size: clamp(2.5rem, 4vw, 3.4rem);
+  font-weight: 800;
+  line-height: 1.02;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  max-width: 720px;
+}
+
+.navTabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.75rem;
+}
+
+.tab,
+.tabSecondary,
+.tabPrimary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 150px;
+  padding: 0.95rem 1.4rem;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.tab {
+  color: var(--text-primary);
+  background: var(--accent-soft);
+  border: 1px solid rgba(37, 99, 235, 0.16);
+}
+
+.tab:hover,
+.tabSecondary:hover,
+.tabPrimary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 18px 35px rgba(37, 99, 235, 0.12);
+}
+
+.tabSecondary {
+  background: #eff6ff;
+  color: #1d4ed8;
+  border: 1px solid rgba(59, 130, 246, 0.25);
+}
+
+.tabPrimary {
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-strong) 100%);
+  color: white;
+  border: 1px solid transparent;
+}
+
+.section {
+  padding: 2rem 0;
+  border: none;
+  background: transparent;
+}
+
+.sectionTitle {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+  color: var(--text-primary);
+}
+
+.infoBlocks {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.infoItem {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.infoItem:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.infoItem h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.75rem;
+}
+
+.infoItem p {
+  color: var(--text-secondary);
+  line-height: 1.75;
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 2rem 1rem;
+  }
+
+  .navTabs {
+    flex-direction: column;
+  }
+}
