@@ -1,0 +1,2202 @@
+[
+  {
+    "name": "Abilene Christian University",
+    "city": "Abilene",
+    "state": "TX"
+  },
+  {
+    "name": "American University",
+    "city": "Washington",
+    "state": "DC"
+  },
+  {
+    "name": "Amherst College",
+    "city": "Armherst",
+    "state": "MA"
+  },
+  {
+    "name": "Appalachian State University",
+    "city": "Boone",
+    "state": "NC"
+  },
+  {
+    "name": "Arizona State University",
+    "city": "Metro Phoenix",
+    "state": "AZ"
+  },
+  {
+    "name": "Arkansas State University",
+    "city": "Jonesboro",
+    "state": "AR"
+  },
+  {
+    "name": "Arkansas Tech University",
+    "city": "Russleville",
+    "state": "AR"
+  },
+  {
+    "name": "Ball State University (BP Debate)",
+    "city": "Munice",
+    "state": "IN"
+  },
+  {
+    "name": "Ball State University (Speech)",
+    "city": "Munice",
+    "state": "IN"
+  },
+  {
+    "name": "Bard College",
+    "city": "Annandale-on-Hudson",
+    "state": "NY"
+  },
+  {
+    "name": "Baruch College",
+    "city": "New York",
+    "state": "NY"
+  },
+  {
+    "name": "Bates College",
+    "city": "Lewiston",
+    "state": "ME"
+  },
+  {
+    "name": "Baylor University",
+    "city": "Waco",
+    "state": "TX"
+  },
+  {
+    "name": "Bellevue College",
+    "city": "Bellevue",
+    "state": "WA"
+  },
+  {
+    "name": "Belmont University",
+    "city": "Nashville",
+    "state": "TN"
+  },
+  {
+    "name": "Berry College",
+    "city": "Mount Berry",
+    "state": "GA"
+  },
+  {
+    "name": "Bethany Lutheran College",
+    "city": "Mankato",
+    "state": "MN"
+  },
+  {
+    "name": "Bethel College (KS)",
+    "city": "North Newton",
+    "state": "KS"
+  },
+  {
+    "name": "Binghamton University",
+    "city": "Binghamton",
+    "state": "NY"
+  },
+  {
+    "name": "Bloomsburg University",
+    "city": "Bloomsburg",
+    "state": "PA"
+  },
+  {
+    "name": "Boise State University",
+    "city": "Boise",
+    "state": "ID"
+  },
+  {
+    "name": "Bossier Parish Community College",
+    "city": "Bossier City",
+    "state": "LA"
+  },
+  {
+    "name": "Boston College",
+    "city": "Chestnut Hill",
+    "state": "MA"
+  },
+  {
+    "name": "Boston University",
+    "city": "Boston",
+    "state": "MA"
+  },
+  {
+    "name": "Bowling Green State University",
+    "city": "Bowling Green",
+    "state": "OH"
+  },
+  {
+    "name": "Bradley University",
+    "city": "Peoria",
+    "state": "IL"
+  },
+  {
+    "name": "Brandeis University",
+    "city": "Waltham",
+    "state": "MA"
+  },
+  {
+    "name": "Brown University",
+    "city": "Providence",
+    "state": "RI"
+  },
+  {
+    "name": "Bryan College",
+    "city": "Dayton",
+    "state": "TN"
+  },
+  {
+    "name": "Butler University",
+    "city": "Indianapolis",
+    "state": "IN"
+  },
+  {
+    "name": "Butte College",
+    "city": "Oroville",
+    "state": "CA"
+  },
+  {
+    "name": "California Baptist University",
+    "city": "Riverside",
+    "state": "CA"
+  },
+  {
+    "name": "California Polytechnic State University",
+    "city": "San Luis Obispo",
+    "state": "CA"
+  },
+  {
+    "name": "California State University Dominguez Hills",
+    "city": "Dominguez Hills",
+    "state": "CA"
+  },
+  {
+    "name": "California State University, Long Beach",
+    "city": "Long Beach",
+    "state": "CA"
+  },
+  {
+    "name": "California State University, Los Angeles",
+    "city": "Los Angeles",
+    "state": "CA"
+  },
+  {
+    "name": "Cameron University",
+    "city": "Lawton",
+    "state": "OK"
+  },
+  {
+    "name": "Capital University",
+    "city": "Bexley",
+    "state": "OH"
+  },
+  {
+    "name": "Carleton College",
+    "city": "Northfield",
+    "state": "MN"
+  },
+  {
+    "name": "Carnegie Mellon University",
+    "city": "Pittsburgh",
+    "state": "PA"
+  },
+  {
+    "name": "Carroll College",
+    "city": "Helena",
+    "state": "MT"
+  },
+  {
+    "name": "Casper College",
+    "city": "Casper",
+    "state": "WY"
+  },
+  {
+    "name": "Cedarville University",
+    "city": "Cedarville",
+    "state": "OH"
+  },
+  {
+    "name": "Central Michigan University",
+    "city": "Mount Pleasant",
+    "state": "MI"
+  },
+  {
+    "name": "Cerritos College",
+    "city": "Norwalk",
+    "state": "CA"
+  },
+  {
+    "name": "Chabot College",
+    "city": "Hayward",
+    "state": "CA"
+  },
+  {
+    "name": "City College of San Francisco",
+    "city": "San Francisco",
+    "state": "CA"
+  },
+  {
+    "name": "Claremont Colleges",
+    "city": "Claremont",
+    "state": "CA"
+  },
+  {
+    "name": "Clemson University",
+    "city": "Clemson",
+    "state": "SC"
+  },
+  {
+    "name": "Cleveland State Community College",
+    "city": "Cleveland",
+    "state": "TN"
+  },
+  {
+    "name": "Clovis Community College",
+    "city": "Fresno",
+    "state": "CA"
+  },
+  {
+    "name": "Colby College",
+    "city": "Waterville",
+    "state": "NH"
+  },
+  {
+    "name": "Colgate University",
+    "city": "Hamilton",
+    "state": "NY"
+  },
+  {
+    "name": "College of DuPage",
+    "city": "Glen Elyn",
+    "state": "IL"
+  },
+  {
+    "name": "College of Southern Idaho",
+    "city": "Twin Falls",
+    "state": "ID"
+  },
+  {
+    "name": "College of Western Idaho",
+    "city": "Nampa",
+    "state": "ID"
+  },
+  {
+    "name": "College of William and Mary",
+    "city": "Williamsburg",
+    "state": "VA"
+  },
+  {
+    "name": "Colorado Christian University",
+    "city": "Lakewood",
+    "state": "CO"
+  },
+  {
+    "name": "Colorado College",
+    "city": "Colorado Springs",
+    "state": "CO"
+  },
+  {
+    "name": "Columbia University",
+    "city": "New york city",
+    "state": "NY"
+  },
+  {
+    "name": "Concordia College (Speech)",
+    "city": "St. Paul",
+    "state": "MN"
+  },
+  {
+    "name": "Concordia University Nebraska",
+    "city": "Seward",
+    "state": "NE"
+  },
+  {
+    "name": "Concordia University-Irvine",
+    "city": "Irvine",
+    "state": "CA"
+  },
+  {
+    "name": "Contra Costa College",
+    "city": "San Pablo",
+    "state": "CA"
+  },
+  {
+    "name": "Cornell University",
+    "city": "Ithaca",
+    "state": "NY"
+  },
+  {
+    "name": "Covenant College",
+    "city": "Lookout Mountain",
+    "state": "GA"
+  },
+  {
+    "name": "Crowder College",
+    "city": "Neosho",
+    "state": "MO"
+  },
+  {
+    "name": "CSU-Chico State",
+    "city": "Chico",
+    "state": "CA"
+  },
+  {
+    "name": "CSU-Fullerton",
+    "city": "Fullerton",
+    "state": "CA"
+  },
+  {
+    "name": "CSU-Northridge",
+    "city": "Northridge",
+    "state": "CA"
+  },
+  {
+    "name": "CSU-Sacramento",
+    "city": "Sacramento",
+    "state": "CA"
+  },
+  {
+    "name": "CSU-San Marcos",
+    "city": "San Marcos",
+    "state": "CA"
+  },
+  {
+    "name": "Cypress College",
+    "city": "Cypress",
+    "state": "CA"
+  },
+  {
+    "name": "Dallas Baptist University",
+    "city": "Dallas",
+    "state": "TX"
+  },
+  {
+    "name": "Dartmouth College (APDA)",
+    "city": "Hanover",
+    "state": "NH"
+  },
+  {
+    "name": "Dartmouth College (Policy)",
+    "city": "Hanover",
+    "state": "NH"
+  },
+  {
+    "name": "Davidson College",
+    "city": "Davidson",
+    "state": "NC"
+  },
+  {
+    "name": "Debate Society of Berkeley (Parli)",
+    "city": "Berkeley",
+    "state": "CA"
+  },
+  {
+    "name": "Del Mar College",
+    "city": "Corpus Christi",
+    "state": "TX"
+  },
+  {
+    "name": "Denison University",
+    "city": "Granville",
+    "state": "OH"
+  },
+  {
+    "name": "Denver University",
+    "city": "Denver",
+    "state": "CO"
+  },
+  {
+    "name": "DePaul University",
+    "city": "Chicago",
+    "state": "IL"
+  },
+  {
+    "name": "DePauw University",
+    "city": "Greencastle",
+    "state": "IN"
+  },
+  {
+    "name": "Diablo Valley College",
+    "city": "Pleasant Hill",
+    "state": "CA"
+  },
+  {
+    "name": "Doane University",
+    "city": "Crete",
+    "state": "NE"
+  },
+  {
+    "name": "Dordt University",
+    "city": "Sioux Center",
+    "state": "IA"
+  },
+  {
+    "name": "Drexel University",
+    "city": "Philadelphia",
+    "state": "PA"
+  },
+  {
+    "name": "Drury University",
+    "city": "Springfield",
+    "state": "MO"
+  },
+  {
+    "name": "Duke University",
+    "city": "Durham",
+    "state": "NC"
+  },
+  {
+    "name": "Duquesne University",
+    "city": "Pittsburgh",
+    "state": "PA"
+  },
+  {
+    "name": "Dutchess County Community College",
+    "city": "Poughkeepsie",
+    "state": "NY"
+  },
+  {
+    "name": "East Los Angeles College",
+    "city": "Monterey Park",
+    "state": "CA"
+  },
+  {
+    "name": "East Tennesee State University",
+    "city": "Johnson City",
+    "state": "TN"
+  },
+  {
+    "name": "Eastern Illinois University",
+    "city": "Charleston",
+    "state": "IL"
+  },
+  {
+    "name": "Eastern Michigan University",
+    "city": "Ypsilanti",
+    "state": "MI"
+  },
+  {
+    "name": "El Camino College",
+    "city": "Torrance",
+    "state": "CA"
+  },
+  {
+    "name": "El Paso Community College",
+    "city": "El Paso",
+    "state": "TX"
+  },
+  {
+    "name": "Elgin Community College",
+    "city": "Elgin",
+    "state": "IL"
+  },
+  {
+    "name": "Emerson College",
+    "city": "Boston",
+    "state": "MA"
+  },
+  {
+    "name": "Emory University (CEDA-NDT)",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  {
+    "name": "Erskine College",
+    "city": "Due West",
+    "state": "SC"
+  },
+  {
+    "name": "Ferris State University",
+    "city": "Big Rapids",
+    "state": "MI"
+  },
+  {
+    "name": "Florida College",
+    "city": "Temple Terrace",
+    "state": "FL"
+  },
+  {
+    "name": "Florida State College at Jacksonville",
+    "city": "Jacksonville",
+    "state": "FL"
+  },
+  {
+    "name": "Florida State University",
+    "city": "Fort Lauderdale",
+    "state": "FL"
+  },
+  {
+    "name": "Fordham University",
+    "city": "bronx",
+    "state": "NY"
+  },
+  {
+    "name": "Fresno City College",
+    "city": "Fresno",
+    "state": "CA"
+  },
+  {
+    "name": "Fresno State University",
+    "city": "Fresno",
+    "state": "CA"
+  },
+  {
+    "name": "Fullerton College",
+    "city": "Fullerton",
+    "state": "CA"
+  },
+  {
+    "name": "George Mason University (Debate)",
+    "city": "Fairfax",
+    "state": "VA"
+  },
+  {
+    "name": "George Mason University (IE)",
+    "city": "Fairfax",
+    "state": "VA"
+  },
+  {
+    "name": "George Washington University",
+    "city": "Washington",
+    "state": "DC"
+  },
+  {
+    "name": "Georgetown University (CEDA-NDT)",
+    "city": "Washington",
+    "state": "DC"
+  },
+  {
+    "name": "Georgia Institute of Technology",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  {
+    "name": "Glenville State University",
+    "city": "Glenvilel",
+    "state": "WV"
+  },
+  {
+    "name": "Gonzaga University",
+    "city": "Spokane",
+    "state": "WA"
+  },
+  {
+    "name": "Grand Canyon University",
+    "city": "Phoenix",
+    "state": "AZ"
+  },
+  {
+    "name": "Grossmont College",
+    "city": "El Cajon",
+    "state": "CA"
+  },
+  {
+    "name": "Grove City College",
+    "city": "Grove City",
+    "state": "PA"
+  },
+  {
+    "name": "Gustavus Adolphus University",
+    "city": "St. Peter",
+    "state": "MN"
+  },
+  {
+    "name": "Hampton University",
+    "city": "hampton",
+    "state": "VA"
+  },
+  {
+    "name": "Harding University",
+    "city": "Searcy",
+    "state": "AR"
+  },
+  {
+    "name": "Harper College",
+    "city": "Palatine",
+    "state": "IL"
+  },
+  {
+    "name": "Harvard University (APDA-BP Debate)",
+    "city": "Cambridge",
+    "state": "MA"
+  },
+  {
+    "name": "Harvard University (CEDA-NDT)",
+    "city": "Cambridge",
+    "state": "MA"
+  },
+  {
+    "name": "Hastings College",
+    "city": "Hastings",
+    "state": "NE"
+  },
+  {
+    "name": "Hawai'I Pacific University",
+    "city": "Honolulu",
+    "state": "HI"
+  },
+  {
+    "name": "Heidelberg University",
+    "city": "Tiffin",
+    "state": "OH"
+  },
+  {
+    "name": "Highland Community College",
+    "city": "Freeport",
+    "state": "IL"
+  },
+  {
+    "name": "Hillsdale College",
+    "city": "Hillsdale",
+    "state": "MI"
+  },
+  {
+    "name": "Hobart and William Smith Colleges (HWS)",
+    "city": "Geneva",
+    "state": "NY"
+  },
+  {
+    "name": "Hofstra University",
+    "city": "Hempstead",
+    "state": "NY"
+  },
+  {
+    "name": "Howard Payne University",
+    "city": "Brownwood",
+    "state": "TX"
+  },
+  {
+    "name": "Howard University",
+    "city": "Washington",
+    "state": "DC"
+  },
+  {
+    "name": "Idaho State University",
+    "city": "Pocatello",
+    "state": "ID"
+  },
+  {
+    "name": "Illinois College",
+    "city": "Jacksonville",
+    "state": "IL"
+  },
+  {
+    "name": "Illinois State University",
+    "city": "Normal",
+    "state": "IL"
+  },
+  {
+    "name": "Indiana University",
+    "city": "Bloomington",
+    "state": "IN"
+  },
+  {
+    "name": "Irvine Valley College",
+    "city": "Irvine",
+    "state": "CA"
+  },
+  {
+    "name": "James Madison University Debate",
+    "city": "Harrisonburg",
+    "state": "VA"
+  },
+  {
+    "name": "James Madison University Speech Team",
+    "city": "Harrisonburg",
+    "state": "VA"
+  },
+  {
+    "name": "Jefferson State Community College",
+    "city": "Birmingham",
+    "state": "AL"
+  },
+  {
+    "name": "John A. Logan College",
+    "city": "Carterville",
+    "state": "IL"
+  },
+  {
+    "name": "John Carroll University",
+    "city": "University Heights",
+    "state": "OH"
+  },
+  {
+    "name": "John Hopkins University",
+    "city": "Baltimore",
+    "state": "MD"
+  },
+  {
+    "name": "Johnson County CC",
+    "city": "Overland Park",
+    "state": "KS"
+  },
+  {
+    "name": "Kansas City Kansas Community College",
+    "city": "Kansas City",
+    "state": "KS"
+  },
+  {
+    "name": "Kansas State University",
+    "city": "Manhattan",
+    "state": "KS"
+  },
+  {
+    "name": "Lafayette College",
+    "city": "Easton",
+    "state": "PA"
+  },
+  {
+    "name": "Las Positas College",
+    "city": "Livermore",
+    "state": "CA"
+  },
+  {
+    "name": "Lee College",
+    "city": "Baytown",
+    "state": "TX"
+  },
+  {
+    "name": "Lehigh University",
+    "city": "Bethlehem",
+    "state": "PA"
+  },
+  {
+    "name": "Lewis & Clark College",
+    "city": "Portland",
+    "state": "OR"
+  },
+  {
+    "name": "Lewis-Clark State",
+    "city": "Lewiston",
+    "state": "ID"
+  },
+  {
+    "name": "Liberty University",
+    "city": "Lynchburg",
+    "state": "VA"
+  },
+  {
+    "name": "Linfield University",
+    "city": "McMinnville",
+    "state": "OR"
+  },
+  {
+    "name": "Lonestar College-North Harris",
+    "city": "Harris County",
+    "state": "TX"
+  },
+  {
+    "name": "Los Angeles City College",
+    "city": "Los Angeles",
+    "state": "CA"
+  },
+  {
+    "name": "Los Angeles Mission College",
+    "city": "Los Angeles",
+    "state": "CA"
+  },
+  {
+    "name": "Los Angeles Valley College",
+    "city": "Valley Glen",
+    "state": "CA"
+  },
+  {
+    "name": "Los Medanos College",
+    "city": "Pittsburgh",
+    "state": "CA"
+  },
+  {
+    "name": "Louisiana Christian University",
+    "city": "Pineville",
+    "state": "LA"
+  },
+  {
+    "name": "Louisiana State University-Baton Rouge",
+    "city": "Baton Rouge",
+    "state": "LA"
+  },
+  {
+    "name": "Louisiana State University-Shreveport",
+    "city": "Shreveport",
+    "state": "LA"
+  },
+  {
+    "name": "Louisiana Tech University",
+    "city": "Ruston",
+    "state": "LA"
+  },
+  {
+    "name": "Lower Columbia College",
+    "city": "Longview",
+    "state": "WA"
+  },
+  {
+    "name": "Loyola Marymount University",
+    "city": "Los Angeles",
+    "state": "CA"
+  },
+  {
+    "name": "Loyola University Chicago",
+    "city": "Chicago",
+    "state": "IL"
+  },
+  {
+    "name": "Lynn University",
+    "city": "Boca Raton",
+    "state": "FL"
+  },
+  {
+    "name": "Macalaster College",
+    "city": "Saint Paul",
+    "state": "MN"
+  },
+  {
+    "name": "Maricopa Community College",
+    "city": "Tempe",
+    "state": "AZ"
+  },
+  {
+    "name": "Marion University",
+    "city": "Indianapolis",
+    "state": "IN"
+  },
+  {
+    "name": "Marshall University",
+    "city": "Huntington",
+    "state": "WV"
+  },
+  {
+    "name": "Maryland Parliamentary Debate Society",
+    "city": "College Park",
+    "state": "MD"
+  },
+  {
+    "name": "McHenry County College",
+    "city": "Crystal Lake",
+    "state": "IL"
+  },
+  {
+    "name": "McKendree University",
+    "city": "Lebanon",
+    "state": "IL"
+  },
+  {
+    "name": "McNeese State University",
+    "city": "Lake Charles",
+    "state": "LA"
+  },
+  {
+    "name": "Mercer University",
+    "city": "Macon",
+    "state": "GA"
+  },
+  {
+    "name": "Methodist University",
+    "city": "Fayetteville",
+    "state": "NC"
+  },
+  {
+    "name": "Metro State University Denver",
+    "city": "Denver",
+    "state": "CO"
+  },
+  {
+    "name": "Michigan State University",
+    "city": "Lansing",
+    "state": "MI"
+  },
+  {
+    "name": "Middle Tennessee State",
+    "city": "Murfreesboro",
+    "state": "TN"
+  },
+  {
+    "name": "Middlebury College",
+    "city": "Middlebury",
+    "state": "VT"
+  },
+  {
+    "name": "Midland University",
+    "city": "Fremont",
+    "state": "NE"
+  },
+  {
+    "name": "Minnesota State University-Mankato",
+    "city": "Mankato",
+    "state": "MN"
+  },
+  {
+    "name": "Mississippi State University",
+    "city": "Starkville",
+    "state": "MS"
+  },
+  {
+    "name": "Missouri State University",
+    "city": "Springfield",
+    "state": "MO"
+  },
+  {
+    "name": "Missouri University of Science & Technology",
+    "city": "Rollo",
+    "state": "MO"
+  },
+  {
+    "name": "Missouri Valley College",
+    "city": "Marshall",
+    "state": "MO"
+  },
+  {
+    "name": "Modesto Junior College",
+    "city": "Modesto",
+    "state": "CA"
+  },
+  {
+    "name": "Monmouth University",
+    "city": "West Long Branch",
+    "state": "NJ"
+  },
+  {
+    "name": "Montana State University",
+    "city": "Bozeman",
+    "state": "MT"
+  },
+  {
+    "name": "Moorpark College",
+    "city": "Moorpark",
+    "state": "CA"
+  },
+  {
+    "name": "Moraine Valley College",
+    "city": "Palos Hills",
+    "state": "IL"
+  },
+  {
+    "name": "Morehouse College",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  {
+    "name": "Mountwest Community and Technical College",
+    "city": "Huntington",
+    "state": "WV"
+  },
+  {
+    "name": "Mt. Hood Community College",
+    "city": "Gresham",
+    "state": "OR"
+  },
+  {
+    "name": "Mt. San Antonio College",
+    "city": "Walnut",
+    "state": "CA"
+  },
+  {
+    "name": "Mt. San Jacinto College (X)",
+    "city": "San Jacinto",
+    "state": "CA"
+  },
+  {
+    "name": "Murray State University",
+    "city": "Murray",
+    "state": "KY"
+  },
+  {
+    "name": "Muskingum University",
+    "city": "New Concord",
+    "state": "OH"
+  },
+  {
+    "name": "Nassau Community College",
+    "city": "Garden City",
+    "state": "NY"
+  },
+  {
+    "name": "New York University",
+    "city": "New York",
+    "state": "NY"
+  },
+  {
+    "name": "Newberry College",
+    "city": "Newberry",
+    "state": "SC"
+  },
+  {
+    "name": "North Central College",
+    "city": "Naperville",
+    "state": "IL"
+  },
+  {
+    "name": "North Dakota State University",
+    "city": "Fargo",
+    "state": "ND"
+  },
+  {
+    "name": "Northeastern University",
+    "city": "Boston",
+    "state": "MA"
+  },
+  {
+    "name": "Northern Arizona University",
+    "city": "Flagstaff",
+    "state": "AZ"
+  },
+  {
+    "name": "Northern Illinois University",
+    "city": "DeKalb",
+    "state": "IL"
+  },
+  {
+    "name": "Northern State University",
+    "city": "Aberdeen",
+    "state": "SD"
+  },
+  {
+    "name": "Northern Virginia Community College",
+    "city": "Annandale",
+    "state": "VA"
+  },
+  {
+    "name": "Northwest College",
+    "city": "Powell",
+    "state": "WY"
+  },
+  {
+    "name": "Northwest Florida State College",
+    "city": "Niceville",
+    "state": "FL"
+  },
+  {
+    "name": "Northwest Missouri State University",
+    "city": "Maryville",
+    "state": "MO"
+  },
+  {
+    "name": "Northwest Nazarene University",
+    "city": "Nampa",
+    "state": "ID"
+  },
+  {
+    "name": "Northwestern University",
+    "city": "Evanston",
+    "state": "IL"
+  },
+  {
+    "name": "Northwood University",
+    "city": "Midland",
+    "state": "MI"
+  },
+  {
+    "name": "Oakland Community College",
+    "city": "Farmington Hills+",
+    "state": "MI"
+  },
+  {
+    "name": "Oakton Community College",
+    "city": "Skokie",
+    "state": "IL"
+  },
+  {
+    "name": "Ohio State University",
+    "city": "Colombus",
+    "state": "OH"
+  },
+  {
+    "name": "Ohio University",
+    "city": "Athens",
+    "state": "OH"
+  },
+  {
+    "name": "Ohlone College",
+    "city": "Fremont",
+    "state": "CA"
+  },
+  {
+    "name": "Oklahoma City University",
+    "city": "Oklahoma City",
+    "state": "OK"
+  },
+  {
+    "name": "Oral Roberts University",
+    "city": "Tulsa",
+    "state": "OK"
+  },
+  {
+    "name": "Orange Coast College",
+    "city": "Costa Mesa",
+    "state": "CA"
+  },
+  {
+    "name": "Oregon State University",
+    "city": "Corvallis",
+    "state": "OR"
+  },
+  {
+    "name": "Ottawa University",
+    "city": "Ottowa",
+    "state": "KS"
+  },
+  {
+    "name": "Otterbein University",
+    "city": "Westerville",
+    "state": "OH"
+  },
+  {
+    "name": "Owensboro Community and Technical College",
+    "city": "Owensboro",
+    "state": "KY"
+  },
+  {
+    "name": "Pacific University",
+    "city": "Forest grove",
+    "state": "OR"
+  },
+  {
+    "name": "Palm Beach Atlantic University",
+    "city": "West Palm Beach",
+    "state": "FL"
+  },
+  {
+    "name": "Palomar College",
+    "city": "San Marcos",
+    "state": "CA"
+  },
+  {
+    "name": "Park University",
+    "city": "Parkville",
+    "state": "MO"
+  },
+  {
+    "name": "Parkland College",
+    "city": "Champaign",
+    "state": "IL"
+  },
+  {
+    "name": "Pasadena City College",
+    "city": "Pasadena",
+    "state": "CA"
+  },
+  {
+    "name": "Patrick Henry College",
+    "city": "Purcellville",
+    "state": "VA"
+  },
+  {
+    "name": "Pennsylvania State University",
+    "city": "State College",
+    "state": "PA"
+  },
+  {
+    "name": "Pepperdine University",
+    "city": "Malibu",
+    "state": "CA"
+  },
+  {
+    "name": "Piedmont University",
+    "city": "Demorest",
+    "state": "GA"
+  },
+  {
+    "name": "Point Loma Nazarene University",
+    "city": "San Diego",
+    "state": "CA"
+  },
+  {
+    "name": "Polk State College",
+    "city": "Winter Haven",
+    "state": "FL"
+  },
+  {
+    "name": "Prairie State College",
+    "city": "Chicago Heights",
+    "state": "IL"
+  },
+  {
+    "name": "Princeton University",
+    "city": "Princeton",
+    "state": "NJ"
+  },
+  {
+    "name": "Queens College",
+    "city": "Flushing",
+    "state": "NY"
+  },
+  {
+    "name": "Randolph-Macon College",
+    "city": "Ashland",
+    "state": "VA"
+  },
+  {
+    "name": "Raritan Valley Community College",
+    "city": "branchburg township",
+    "state": "NJ"
+  },
+  {
+    "name": "Regis University",
+    "city": "Denver",
+    "state": "CO"
+  },
+  {
+    "name": "Rice University",
+    "city": "Houston",
+    "state": "TX"
+  },
+  {
+    "name": "Rio Hondo College",
+    "city": "Whittier",
+    "state": "CA"
+  },
+  {
+    "name": "Rollins College",
+    "city": "Winter Park",
+    "state": "FL"
+  },
+  {
+    "name": "Rutgers University APDA",
+    "city": "New Brunswick",
+    "state": "NJ"
+  },
+  {
+    "name": "Saddleback College",
+    "city": "Mission Viejo",
+    "state": "CA"
+  },
+  {
+    "name": "Saginaw Valley State University",
+    "city": "University Center",
+    "state": "MI"
+  },
+  {
+    "name": "Saint Cloud State University",
+    "city": "Saint Cloud",
+    "state": "MN"
+  },
+  {
+    "name": "Saint Mary's College of California",
+    "city": "Moraga",
+    "state": "CA"
+  },
+  {
+    "name": "Samford University",
+    "city": "Homewood",
+    "state": "AL"
+  },
+  {
+    "name": "San Antonio College",
+    "city": "San Antonio",
+    "state": "TX"
+  },
+  {
+    "name": "San Diego Mesa College",
+    "city": "San Diego",
+    "state": "CA"
+  },
+  {
+    "name": "San Diego State University",
+    "city": "San Diego",
+    "state": "CA"
+  },
+  {
+    "name": "San Francisco State-CSU",
+    "city": "San Francisco",
+    "state": "CA"
+  },
+  {
+    "name": "San Jacinto Community College CA",
+    "city": "Pasadena",
+    "state": "CA"
+  },
+  {
+    "name": "San Joaquin Delta College",
+    "city": "Stockton",
+    "state": "CA"
+  },
+  {
+    "name": "San Jose State University",
+    "city": "San Jose",
+    "state": "CA"
+  },
+  {
+    "name": "Santa Rosa Junior College",
+    "city": "Santa Rosa",
+    "state": "CA"
+  },
+  {
+    "name": "Santiago Canyon College",
+    "city": "Orange",
+    "state": "CA"
+  },
+  {
+    "name": "Seattle University",
+    "city": "Seattle",
+    "state": "WA"
+  },
+  {
+    "name": "Seton Hall University",
+    "city": "South Orange",
+    "state": "NJ"
+  },
+  {
+    "name": "Shepherd University",
+    "city": "Shepherdstown",
+    "state": "WV"
+  },
+  {
+    "name": "Simon Fraser University",
+    "city": "Burnaby",
+    "state": "BC"
+  },
+  {
+    "name": "Simpson College",
+    "city": "Indianola",
+    "state": "IA"
+  },
+  {
+    "name": "Slippery Rock University",
+    "city": "Slippery Rock",
+    "state": "PA"
+  },
+  {
+    "name": "Smith College",
+    "city": "Northhampton",
+    "state": "MA"
+  },
+  {
+    "name": "Solano CC",
+    "city": "Fairfield",
+    "state": "CA"
+  },
+  {
+    "name": "South Dakota State University",
+    "city": "Brookings",
+    "state": "SD"
+  },
+  {
+    "name": "Southeastern Illinois College",
+    "city": "Harrisburg",
+    "state": "IL"
+  },
+  {
+    "name": "Southeastern Oklahoma State University",
+    "city": "Durant",
+    "state": "OK"
+  },
+  {
+    "name": "Southern Methodist Univ.",
+    "city": "Dallas",
+    "state": "TX"
+  },
+  {
+    "name": "Southern University and A & M College",
+    "city": "Baton Rouge",
+    "state": "LA"
+  },
+  {
+    "name": "Southwest Baptist University",
+    "city": "Bolivar",
+    "state": "MO"
+  },
+  {
+    "name": "Southwest Minnesota State University",
+    "city": "Marshall",
+    "state": "MN"
+  },
+  {
+    "name": "Spelman College",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  {
+    "name": "Spoon River College",
+    "city": "Canton",
+    "state": "IL"
+  },
+  {
+    "name": "St. Anselm’s College",
+    "city": "",
+    "state": "NH"
+  },
+  {
+    "name": "St. Cloud State University",
+    "city": "St. Cloud",
+    "state": "MN"
+  },
+  {
+    "name": "St. John's University (NY)",
+    "city": "Jamaica",
+    "state": "NY"
+  },
+  {
+    "name": "St. Mary's College of California",
+    "city": "Moraga",
+    "state": "CA"
+  },
+  {
+    "name": "St. Olaf College",
+    "city": "Northfield",
+    "state": "MN"
+  },
+  {
+    "name": "Stanford University",
+    "city": "Stanford",
+    "state": "CA"
+  },
+  {
+    "name": "Sterling College",
+    "city": "Sterling",
+    "state": "KS"
+  },
+  {
+    "name": "SUNY-Broome",
+    "city": "Binghamton",
+    "state": "NY"
+  },
+  {
+    "name": "Swarthmore College",
+    "city": "Swarthmore",
+    "state": "PA"
+  },
+  {
+    "name": "Syracuse University",
+    "city": "Syracuse",
+    "state": "NY"
+  },
+  {
+    "name": "Tallahassee Community College",
+    "city": "Tallahassee",
+    "state": "FL"
+  },
+  {
+    "name": "Tarrant County College Northwest",
+    "city": "Fort Worth",
+    "state": "TX"
+  },
+  {
+    "name": "Temple University",
+    "city": "Philadelphia",
+    "state": "PA"
+  },
+  {
+    "name": "Tennessee State University",
+    "city": "Nashville",
+    "state": "TN"
+  },
+  {
+    "name": "Tennessee Technological University",
+    "city": "Cookville",
+    "state": "TN"
+  },
+  {
+    "name": "Texas A&M University",
+    "city": "College Station",
+    "state": "TX"
+  },
+  {
+    "name": "Texas Christian University",
+    "city": "Fort Worth",
+    "state": "TX"
+  },
+  {
+    "name": "Texas Southern University",
+    "city": "Houston",
+    "state": "TX"
+  },
+  {
+    "name": "Texas State University-San Marcos",
+    "city": "San Marcos",
+    "state": "TX"
+  },
+  {
+    "name": "Texas Tech University",
+    "city": "Lubbock",
+    "state": "TX"
+  },
+  {
+    "name": "The College of Idaho",
+    "city": "Caldwell",
+    "state": "ID"
+  },
+  {
+    "name": "The King’s College",
+    "city": "New York",
+    "state": "NY"
+  },
+  {
+    "name": "The New School",
+    "city": "New York",
+    "state": "NY"
+  },
+  {
+    "name": "The University of Texas at Tyler",
+    "city": "Tyler",
+    "state": "TX"
+  },
+  {
+    "name": "Towson State University",
+    "city": "Towson",
+    "state": "MD"
+  },
+  {
+    "name": "Translyvania University",
+    "city": "Lexington",
+    "state": "KY"
+  },
+  {
+    "name": "Trinity College",
+    "city": "Hartford",
+    "state": "CT"
+  },
+  {
+    "name": "Trinity University",
+    "city": "San Antonio",
+    "state": "TX"
+  },
+  {
+    "name": "Troy University",
+    "city": "Troy",
+    "state": "AL"
+  },
+  {
+    "name": "Truman State University",
+    "city": "Kirksville",
+    "state": "MO"
+  },
+  {
+    "name": "Tufts University",
+    "city": "Middlesex",
+    "state": "MA"
+  },
+  {
+    "name": "Tulane University",
+    "city": "New Orleans",
+    "state": "LA"
+  },
+  {
+    "name": "Tulsa Community College",
+    "city": "Tulsa",
+    "state": "OK"
+  },
+  {
+    "name": "Tyler Junior College",
+    "city": "Tyler",
+    "state": "TX"
+  },
+  {
+    "name": "U.S. Air Force Academy",
+    "city": "Colorado Springs",
+    "state": "CO"
+  },
+  {
+    "name": "U.S. Naval Academy",
+    "city": "Annapolis",
+    "state": "MD"
+  },
+  {
+    "name": "Union University",
+    "city": "Jackson",
+    "state": "TN"
+  },
+  {
+    "name": "University of Akron",
+    "city": "Akron",
+    "state": "OH"
+  },
+  {
+    "name": "University of Alabama-Tuscaloosa",
+    "city": "Tuscaloosa",
+    "state": "AL"
+  },
+  {
+    "name": "University of Alaska-Anchorage",
+    "city": "Anchorage",
+    "state": "AK"
+  },
+  {
+    "name": "University of Arkansas-Monticello",
+    "city": "Monticello",
+    "state": "AR"
+  },
+  {
+    "name": "University of British Columbia",
+    "city": "Vancouver",
+    "state": "BC"
+  },
+  {
+    "name": "University of California - Davis",
+    "city": "Davis",
+    "state": "CA"
+  },
+  {
+    "name": "University of California San Diego",
+    "city": "San Diego",
+    "state": "CA"
+  },
+  {
+    "name": "University of California Santa Barbara",
+    "city": "Santa Barbara",
+    "state": "CA"
+  },
+  {
+    "name": "University of California, Riverside",
+    "city": "Riverside",
+    "state": "CA"
+  },
+  {
+    "name": "University of California-Berkeley (NPDA-NPTE)",
+    "city": "Berkeley",
+    "state": "CA"
+  },
+  {
+    "name": "University of California-Berkeley (Policy)",
+    "city": "Berkeley",
+    "state": "CA"
+  },
+  {
+    "name": "University of California-Los Angeles",
+    "city": "Los Angeles",
+    "state": "CA"
+  },
+  {
+    "name": "University of Central Arkansas",
+    "city": "Conway",
+    "state": "AR"
+  },
+  {
+    "name": "University of Central Florida",
+    "city": "Orlando",
+    "state": "FL"
+  },
+  {
+    "name": "University of Central Missouri",
+    "city": "Warrensburg",
+    "state": "MO"
+  },
+  {
+    "name": "University of Central Oklahoma",
+    "city": "Edmond",
+    "state": "OK"
+  },
+  {
+    "name": "University of Chicago",
+    "city": "Chicago",
+    "state": "IL"
+  },
+  {
+    "name": "University of Dayton",
+    "city": "Dayton",
+    "state": "OH"
+  },
+  {
+    "name": "University of Delaware",
+    "city": "Newark",
+    "state": "DE"
+  },
+  {
+    "name": "University of Florida",
+    "city": "Gainsville",
+    "state": "FL"
+  },
+  {
+    "name": "University of Georgia",
+    "city": "Athens",
+    "state": "GA"
+  },
+  {
+    "name": "University of Houston",
+    "city": "Houston",
+    "state": "TX"
+  },
+  {
+    "name": "University of Illinois at Chicago",
+    "city": "Chicago",
+    "state": "IL"
+  },
+  {
+    "name": "University of Illinois Urbana Champaign",
+    "city": "Champaign",
+    "state": "IL"
+  },
+  {
+    "name": "University of Illinois-Springfield",
+    "city": "Springfield",
+    "state": "IL"
+  },
+  {
+    "name": "University of Indianapolis",
+    "city": "Indianapolis",
+    "state": "IN"
+  },
+  {
+    "name": "University of Iowa",
+    "city": "Iowa City",
+    "state": "IA"
+  },
+  {
+    "name": "University of Jamestown",
+    "city": "Jamestown",
+    "state": "ND"
+  },
+  {
+    "name": "University of Kansas",
+    "city": "Lawrence",
+    "state": "KS"
+  },
+  {
+    "name": "University of Kentucky",
+    "city": "Lexington",
+    "state": "KY"
+  },
+  {
+    "name": "University of LaVerne",
+    "city": "La Verne",
+    "state": "CA"
+  },
+  {
+    "name": "University of Louisiana Lafayette",
+    "city": "Lafayette",
+    "state": "LA"
+  },
+  {
+    "name": "University of Louisville",
+    "city": "Louisville",
+    "state": "KY"
+  },
+  {
+    "name": "University of Lynchburg",
+    "city": "Lynchburg",
+    "state": "VA"
+  },
+  {
+    "name": "University of Maryland",
+    "city": "College Park",
+    "state": "MD"
+  },
+  {
+    "name": "University of Massachusetts",
+    "city": "Boston",
+    "state": "MA"
+  },
+  {
+    "name": "University of Miami (FL)",
+    "city": "Coral Gables",
+    "state": "FL"
+  },
+  {
+    "name": "University of Michigan",
+    "city": "Ann Arbor",
+    "state": "MI"
+  },
+  {
+    "name": "University of Michigan, Ann Arbor",
+    "city": "Ann Arbor",
+    "state": "MI"
+  },
+  {
+    "name": "University of Michigan, Dearborn",
+    "city": "Dearborn",
+    "state": "MI"
+  },
+  {
+    "name": "University of Minnesota",
+    "city": "Minneapolis",
+    "state": "MN"
+  },
+  {
+    "name": "University of Mississippi",
+    "city": "University",
+    "state": "MS"
+  },
+  {
+    "name": "University of Missouri Columbia",
+    "city": "Columbia",
+    "state": "MO"
+  },
+  {
+    "name": "University of Montana",
+    "city": "Missoula",
+    "state": "MT"
+  },
+  {
+    "name": "University of Nebraska-Kearney",
+    "city": "Kearney",
+    "state": "NE"
+  },
+  {
+    "name": "University of Nebraska-Lincoln",
+    "city": "Lincoln",
+    "state": "NE"
+  },
+  {
+    "name": "University of Nebraska-Omaha",
+    "city": "Omaha",
+    "state": "NE"
+  },
+  {
+    "name": "University of Nevada at Las Vegas",
+    "city": "Las Vegas",
+    "state": "NV"
+  },
+  {
+    "name": "University of Nevada-Reno",
+    "city": "Reno",
+    "state": "NV"
+  },
+  {
+    "name": "University of North Carolina-Charlotte",
+    "city": "Charlotte",
+    "state": "NC"
+  },
+  {
+    "name": "University of North Dakota",
+    "city": "Grand Forks",
+    "state": "ND"
+  },
+  {
+    "name": "University of North Georgia",
+    "city": "Oakwood",
+    "state": "GA"
+  },
+  {
+    "name": "University of North Texas",
+    "city": "Denton",
+    "state": "TX"
+  },
+  {
+    "name": "University of Northern Iowa Debate",
+    "city": "Cedar Falls",
+    "state": "IA"
+  },
+  {
+    "name": "University of Northern Iowa Speech",
+    "city": "Cedar Falls",
+    "state": "IA"
+  },
+  {
+    "name": "University of Notre Dame",
+    "city": "Notre Dame",
+    "state": "IN"
+  },
+  {
+    "name": "University of Oklahoma",
+    "city": "Norman",
+    "state": "OK"
+  },
+  {
+    "name": "University of Oregon",
+    "city": "Eugene",
+    "state": "OR"
+  },
+  {
+    "name": "University of Pennsylvania",
+    "city": "Philadelphia",
+    "state": "PA"
+  },
+  {
+    "name": "University of Pittsburgh",
+    "city": "Pittsburgh",
+    "state": "PA"
+  },
+  {
+    "name": "University of Puget Sound",
+    "city": "Tacoma",
+    "state": "WA"
+  },
+  {
+    "name": "University of Richmond",
+    "city": "Richmond",
+    "state": "VA"
+  },
+  {
+    "name": "University of Rochester",
+    "city": "Rochester",
+    "state": "NY"
+  },
+  {
+    "name": "University of San Francisco",
+    "city": "San Francisco",
+    "state": "CA"
+  },
+  {
+    "name": "University of South Carolina",
+    "city": "Columbia",
+    "state": "SC"
+  },
+  {
+    "name": "University of Southern California",
+    "city": "Los Angeles",
+    "state": "CA"
+  },
+  {
+    "name": "University of Southern Mississippi",
+    "city": "hattiesburg",
+    "state": "MS"
+  },
+  {
+    "name": "University of St. Thomas",
+    "city": "St. Paul",
+    "state": "MN"
+  },
+  {
+    "name": "University of Tennessee-Knoxville",
+    "city": "Knoxville",
+    "state": "TN"
+  },
+  {
+    "name": "University of Texas at El Paso",
+    "city": "El Paso",
+    "state": "TX"
+  },
+  {
+    "name": "University of Texas Dallas",
+    "city": "Dallas",
+    "state": "TX"
+  },
+  {
+    "name": "University of Texas El Paso",
+    "city": "El Paso",
+    "state": "TX"
+  },
+  {
+    "name": "University of Texas-Austin (Debate)",
+    "city": "Austin",
+    "state": "TX"
+  },
+  {
+    "name": "University of Texas-Austin (IEs)",
+    "city": "Austin",
+    "state": "TX"
+  },
+  {
+    "name": "University of Texas-San Antonio",
+    "city": "San Antonio",
+    "state": "TX"
+  },
+  {
+    "name": "University of the Cumberlands",
+    "city": "williamsburg",
+    "state": "KY"
+  },
+  {
+    "name": "University of the Pacific",
+    "city": "Stockton",
+    "state": "CA"
+  },
+  {
+    "name": "University of Tulsa",
+    "city": "Tulsa",
+    "state": "OK"
+  },
+  {
+    "name": "University of Utah",
+    "city": "Salt Lake City",
+    "state": "UT"
+  },
+  {
+    "name": "University of Vermont",
+    "city": "Burlington",
+    "state": "VT"
+  },
+  {
+    "name": "University of Virginia",
+    "city": "Charlottesville",
+    "state": "VA"
+  },
+  {
+    "name": "University of Washington (Seattle)",
+    "city": "Seattle",
+    "state": "WA"
+  },
+  {
+    "name": "University of West Florida",
+    "city": "Pensacola",
+    "state": "FL"
+  },
+  {
+    "name": "University of West Georgia",
+    "city": "Carrollton",
+    "state": "GA"
+  },
+  {
+    "name": "University of Wisconsin-Eau Claire",
+    "city": "Eau Claire",
+    "state": "WI"
+  },
+  {
+    "name": "University of Wisconsin-Madison",
+    "city": "Madison",
+    "state": "WI"
+  },
+  {
+    "name": "University of Wisconsin-Whitewater",
+    "city": "Whitewater",
+    "state": "WI"
+  },
+  {
+    "name": "University of Wyoming",
+    "city": "Laramie",
+    "state": "WY"
+  },
+  {
+    "name": "US Military Academy",
+    "city": "West Point",
+    "state": "NY"
+  },
+  {
+    "name": "Valdosta State University",
+    "city": "Valdosta",
+    "state": "GA"
+  },
+  {
+    "name": "Valley City State University",
+    "city": "Valley City",
+    "state": "ND"
+  },
+  {
+    "name": "Vanderbilt University",
+    "city": "Nashville",
+    "state": "TN"
+  },
+  {
+    "name": "Vassar College",
+    "city": "Poughkeepsie",
+    "state": "NY"
+  },
+  {
+    "name": "Virginia State University",
+    "city": "Ettrick",
+    "state": "VA"
+  },
+  {
+    "name": "Wake Forest University",
+    "city": "Winston-Salem",
+    "state": "NC"
+  },
+  {
+    "name": "Walters State Community College",
+    "city": "Morristown",
+    "state": "TN"
+  },
+  {
+    "name": "Washburn University",
+    "city": "Topeka",
+    "state": "KS"
+  },
+  {
+    "name": "Washington University St. Louis",
+    "city": "University City",
+    "state": "MO"
+  },
+  {
+    "name": "Wayne State College (NE)",
+    "city": "Wayne",
+    "state": "NE"
+  },
+  {
+    "name": "Wayne State University",
+    "city": "Detroit",
+    "state": "MI"
+  },
+  {
+    "name": "Weber State University",
+    "city": "Ogden",
+    "state": "UT"
+  },
+  {
+    "name": "Wellesley College",
+    "city": "Wellesley",
+    "state": "MA"
+  },
+  {
+    "name": "West Chester University",
+    "city": "West Chester",
+    "state": "PA"
+  },
+  {
+    "name": "West Texas A&M University",
+    "city": "Canyon",
+    "state": "TX"
+  },
+  {
+    "name": "West Virginia University",
+    "city": "Morgantown",
+    "state": "WV"
+  },
+  {
+    "name": "Western Kentucky University",
+    "city": "Bowling Green",
+    "state": "KY"
+  },
+  {
+    "name": "Western Washington University",
+    "city": "Bellingham",
+    "state": "WA"
+  },
+  {
+    "name": "Westminster College (PA)",
+    "city": "Wilmington",
+    "state": "PA"
+  },
+  {
+    "name": "Westminster University (UT)",
+    "city": "Salt Lake City",
+    "state": "UT"
+  },
+  {
+    "name": "Wheaton College",
+    "city": "Wheaton",
+    "state": "IL"
+  },
+  {
+    "name": "Whitman College",
+    "city": "Walla Walla",
+    "state": "WA"
+  },
+  {
+    "name": "Whitworth University",
+    "city": "Spokane",
+    "state": "WA"
+  },
+  {
+    "name": "Wichita State University",
+    "city": "Wichita",
+    "state": "KS"
+  },
+  {
+    "name": "Wiley College",
+    "city": "Marshall",
+    "state": "TX"
+  },
+  {
+    "name": "Wilkes University",
+    "city": "Wilkes-Barre",
+    "state": "PA"
+  },
+  {
+    "name": "Willamette University",
+    "city": "Salem",
+    "state": "OR"
+  },
+  {
+    "name": "William & Mary",
+    "city": "Williamsburg",
+    "state": "VA"
+  },
+  {
+    "name": "William Carey University",
+    "city": "Hattiesburg",
+    "state": "MS"
+  },
+  {
+    "name": "William Jewell College",
+    "city": "Liberty",
+    "state": "MO"
+  },
+  {
+    "name": "Williams College",
+    "city": "Williams College",
+    "state": "MA"
+  },
+  {
+    "name": "Yale University",
+    "city": "New Haven",
+    "state": "CT"
+  }
+]

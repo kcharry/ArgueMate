@@ -1,7 +1,62 @@
+"use client";
+
 import Link from "next/link";
+import { useMemo, useState } from "react";
 import styles from "./page.module.css";
+import schools from "@/data/schools.json";
 
 export default function Home() {
+  const [selectedState, setSelectedState] = useState("");
+  const [selectedCity, setSelectedCity] = useState("");
+  const [results, setResults] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+  const [hasSearched, setHasSearched] = useState(false);
+
+  const states = useMemo(
+    () => [...new Set(schools.map((school) => school.state).filter(Boolean))].sort(),
+    []
+  );
+
+  const cityOptions = useMemo(() => {
+    if (!selectedState) return [];
+    return [...new Set(
+      schools
+        .filter((school) => school.state === selectedState)
+        .map((school) => school.city)
+    )].sort();
+  }, [selectedState]);
+
+  async function handleSearch() {
+    setHasSearched(true);
+    setError("");
+    setLoading(true);
+
+    try {
+      const res = await fetch("/api/search", {
+        method: "POST",
+        body: JSON.stringify({ state: selectedState, city: selectedCity }),
+      });
+
+      if (!res.ok) {
+        throw new Error("Search failed");
+      }
+
+      const data = await res.json();
+      setResults(data);
+    } catch (err) {
+      setError("Unable to search schools. Please try again.");
+      setResults([]);
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  function handleStateChange(value) {
+    setSelectedState(value);
+    setSelectedCity("");
+  }
+
   return (
     <div className={styles.container}>
       <main className={styles.page}>
@@ -12,9 +67,9 @@ export default function Home() {
               Learn more
             </a>
             
-            <Link href="#find-teams" className={styles.topLink}>
+            <a href="#find-teams" className={styles.topLink}>
               Find teams near you
-            </Link>
+            </a>
           </nav>
         </header>
     
@@ -27,7 +82,7 @@ export default function Home() {
               <p className={styles.heroSubtitle}>
                 Practice and sharpen your debate skills in a fun and engaging way with AI-powered practice, topic guidance, and real-time feedback.
               </p>
-              <Link href="/arguemate" className={styles.heroButton}>
+              <Link href="/argumate" className={styles.heroButton}>
                 Try out ArgueMate
               </Link>
             </div>
@@ -85,6 +140,90 @@ export default function Home() {
                   Practice makes perfect. With ArgueMate, you can debate anytime, anywhere—without waiting for tournament seasons. Build confidence, sharpen critical thinking, and develop the skills to lead persuasive arguments. The longer you engage with the platform, the more consistent your strategy becomes, helping you win more rounds and grow as a thoughtful, effective speaker. Regular practice with ArgueMate not only improves your debating abilities but also enhances your overall communication skills, making you a more compelling speaker in academic, professional, and personal contexts. Ultimately, ArgueMate empowers you to become a master of argumentation, ready to tackle any debate with poise and precision.
                 </p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="find-teams" className={styles.findTeams}>
+          <div className={styles.findTeamsContainer}>
+            <div className={styles.findTeamsHeader}>
+              <h2 className={styles.findTeamsTitle}>Find teams near you</h2>
+              <p className={styles.findTeamsSubtitle}>
+                Select a state and city to see debate programs in that area.
+              </p>
+            </div>
+
+            <div className={styles.findTeamsForm}>
+              <div className={styles.fieldGroup}>
+                <label className={styles.fieldLabel} htmlFor="state-select">
+                  State
+                </label>
+                <select
+                  id="state-select"
+                  value={selectedState}
+                  onChange={(e) => handleStateChange(e.target.value)}
+                  className={styles.select}
+                >
+                  <option value="">Select a state</option>
+                  {states.map((state) => (
+                    <option key={state} value={state}>
+                      {state}
+                    </option>
+                  ))}
+                </select>
+              </div>
+
+              <div className={styles.fieldGroup}>
+                <label className={styles.fieldLabel} htmlFor="city-select">
+                  City
+                </label>
+                <select
+                  id="city-select"
+                  value={selectedCity}
+                  onChange={(e) => setSelectedCity(e.target.value)}
+                  className={styles.select}
+                  disabled={!selectedState}
+                >
+                  <option value="">Select a city</option>
+                  {cityOptions.map((city) => (
+                    <option key={city} value={city}>
+                      {city}
+                    </option>
+                  ))}
+                </select>
+              </div>
+
+              <div className={styles.fieldGroup}>
+                <button
+                  className={styles.findTeamsSearchButton}
+                  onClick={handleSearch}
+                  disabled={!selectedState || !selectedCity || loading}
+                >
+                  {loading ? "Searching…" : "Search"}
+                </button>
+              </div>
+            </div>
+
+            <div className={styles.resultsSection}>
+              {error && <p className={styles.errorText}>{error}</p>}
+              {results.length > 0 ? (
+                <ul className={styles.resultsList}>
+                  {results.map((school, index) => (
+                    <li key={index} className={styles.resultItem}>
+                      <strong>{school.name}</strong>
+                      <span>{school.city}, {school.state}</span>
+                    </li>
+                  ))}
+                </ul>
+              ) : hasSearched ? (
+                <p className={styles.noResultsText}>
+                  No schools found for {selectedCity}, {selectedState}.
+                </p>
+              ) : (
+                <p className={styles.noResultsText}>
+                  Choose a state and city, then search to see debate schools.
+                </p>
+              )}
             </div>
           </div>
         </section>
