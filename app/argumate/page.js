@@ -9,15 +9,11 @@ export default function Home() {
 
   const [division, setDivision] = useState("Novice");
   const [side, setSide] = useState("Random");
-  const [learnMoreOpen, setLearnMoreOpen] = useState(false);
 
   function startDebate() {
     router.push(`/debate?division=${division}&side=${side}`);
   }
 
-  function toggleLearnMore() {
-    setLearnMoreOpen((current) => !current);
-  }
 
   return (
     <div className={styles.container}>
