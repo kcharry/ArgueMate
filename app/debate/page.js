@@ -9,6 +9,8 @@ import {
     getNCPrompt,
     getCrossExResponsePrompt,
     getNRPrompt,
+    getFirstARPrompt,
+    getSecondARPrompt,
     getJudgePrompt
 } from "../../lib/prompts";
 import { getRandomTopic } from "../../lib/topics";
@@ -87,7 +89,6 @@ export default function DebatePage() {
 
         addMessage("ai mate", `Negative Constructive:\n${ai_neg_constructive}`);
 
-        //setStage("judge"); // later user aff cross user_1ar
         setStage("user_aff_cross");
     }
     
@@ -111,7 +112,7 @@ export default function DebatePage() {
 
     else if (currentStage === "ai_nr"){
       const ai_neg_rebuttal = await generateAI(
-        getNRPrompt(topic, userInput, messages, division) // TODO
+        getNRPrompt(topic, messages, division)
       );
 
       addMessage("ai mate", `Negative Rebuttal:\n${ai_neg_rebuttal}`);
@@ -151,9 +152,45 @@ export default function DebatePage() {
     else if (currentStage === "user_nc"){ // user provides negative constructive --> ai aff cross 
         addMessage("user", `Negative Constructive:\n${userInput || "..."}`);
 
-        // later ai aff cross 
+        const ai_cross_exam = await generateAI(
+            getCrossExPrompt(topic, userInput || "...", messages, division)
+        );
 
-        setStage("judge");
+        addMessage("ai mate", `Cross-Exam:\n${ai_cross_exam}`);
+
+        setStage("ai_cross");
+    }
+
+    else if (currentStage == "ai_cross") {
+      addMessage("user", `Cross-Response:\n${userInput || "..."}`);
+
+      setStage("ai_1ar");
+    }
+
+    else if (currentStage == "ai_1ar"){
+      const ai_1aff_rebuttal = await generateAI(
+        getFirstARPrompt(topic, messages, division) //TODO
+      );
+
+      addMessage("ai mate", `First Aff Rebuttal:\n${ai_1aff_rebuttal}`);
+
+      setStage("user_nr")
+    }
+
+    else if (currentStage == "user_nr") {
+      addMessage("user", `Negative Rebuttal:\n${userInput || "..."}`);
+
+      setStage("ai_2ar");
+    }
+
+    else if (currentStage == "ai_2ar"){
+      const ai_2aff_rebuttal = await generateAI(
+        getSecondARPrompt(topic, messages, division) //TODO
+      );
+
+      addMessage("ai mate", `Second Aff Rebuttal:\n${ai_2aff_rebuttal}`);
+
+      setStage("judge")
     }
 
     else if (currentStage === "judge"){
@@ -171,7 +208,7 @@ export default function DebatePage() {
     // auto-run on stage change if it's an AI-first stage
   useEffect(() => {
     if (!topic) return; // wait until topic is loaded
-    if (stage === "ai_ac" || stage === "ai_nr" || stage === "judge") {
+    if (stage === "ai_ac" || stage === "ai_nr" || stage === "ai_1ar" || stage === "ai_2ar" || stage === "judge") {
       runDebate(stage);
     }
   },[stage, topic]);
@@ -209,16 +246,16 @@ export default function DebatePage() {
                 ? "Affirmative Constructive"
                 : stage === "user_nc" || stage === "ai_nc"
                 ? "Negative Constructive"
-                : stage === "user_neg_cross" || stage ==="user_aff_cross"
+                : stage === "user_neg_cross" || stage ==="user_aff_cross" || stage == "ai_cross"
                 ? "Cross Examination"
-                : stage === "user_1ar"
+                : stage === "user_1ar" || stage === "ai_1ar"
                 ? "First Aff Rebuttal"
-                : stage === "ai_nr"
+                : stage === "ai_nr" || stage === "user_nr"
                 ? "Negative Rebuttal"
-                : stage === "user_2ar"
+                : stage === "user_2ar" || stage === "ai_2ar"
                 ? "Second Aff Rebuttal"
                 : stage === "judge"
-                ? "Juding"
+                ? "Judging"
                 : stage === "done"
                 ? "Complete"
                 :"Waiting..."
@@ -250,14 +287,16 @@ export default function DebatePage() {
                 ? "Enter your affirmative constructive..."
                 : stage === "user_nc" 
                 ? "Enter your negative constructive..."
-                : stage === "ai_nc"
-                ? "Enter your cross response..."
+                : stage === "ai_nc" || stage === "ai_cross"
+                ? "Enter your cross examination response..."
                 : stage === "user_neg_cross" || stage === "user_aff_cross"
                 ? "Enter your cross examination questions..."
                 : stage === "user_1ar"
                 ? "Enter your first rebuttal..."
                 : stage === "user_2ar"
                 ? "Enter your second rebuttal..."
+                : stage === "user_nr"
+                ? "Enter your rebuttal..."
                 : "..."
               }
             />

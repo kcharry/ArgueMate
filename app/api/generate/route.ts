@@ -16,11 +16,16 @@ export async function POST(req: Request) {
     }
 
     const response = await ai.models.generateContent({
-      model: "gemini-2.5-flash",
+      model: "gemini-flash-lite-latest", //"gemini-2.5-flash"
       
+      // config: {
+      //   thinkingConfig: {
+      //     thinkingBudget: 8000, 
+      //   }
+      // },
       config: {
         thinkingConfig: {
-          thinkingBudget: 8000, 
+          thinkingBudget: 0, 
         }
       },
 
