@@ -246,7 +246,7 @@ export default function DebatePage() {
   return (
     <div className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.heading}>ArguMate ⚔️</h1>
+        <h1 className={styles.heading}>ArgueMate ⚔️</h1>
 
         {/* Header Info */}
         <div className={styles.headerInfo}>

@@ -66,7 +66,9 @@ export default function Home() {
             <a href="#learn-more" className={styles.topLink}>
               Learn more
             </a>
-            
+            <a href="/fact-check" className={styles.topLink}>
+              Fact CheckMate
+            </a>
             <a href="#find-teams" className={styles.topLink}>
               Find teams near you
             </a>
