@@ -115,6 +115,8 @@
 }
 
 .button {
+  display: block;
+  margin: 0.5rem auto 0;
   padding: 1rem 2rem;
   background: linear-gradient(135deg, #0066cc 0%, #0099bb 100%);
   color: white;
@@ -126,7 +128,6 @@
   transition: all 0.3s ease;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  margin-top: 0.5rem;
   box-shadow: 0 6px 20px rgba(0, 102, 204, 0.3);
 }
 
