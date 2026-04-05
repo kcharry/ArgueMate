@@ -144,8 +144,9 @@
 
 .inputSection {
   display: flex;
+  flex-direction: column;
   gap: 1rem;
-  align-items: center;
+  align-items: stretch;
 }
 
 .input {
@@ -172,6 +173,53 @@
 
 .input::placeholder {
   color: var(--text-secondary);
+}
+
+.stageNote {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  border-radius: 8px;
+  border-left: 3px solid var(--primary-blue);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.stageNoteCollapsed {
+  background: rgba(0, 102, 204, 0.05);
+  padding: 0.5rem 1rem;
+}
+
+.stageNoteExpanded {
+  background: rgba(0, 102, 204, 0.08);
+  padding: 0.75rem 1rem;
+}
+
+.stageNoteHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  color: var(--text-primary);
+  font-size: 0.85rem;
+}
+
+.expandIcon {
+  font-size: 0.7rem;
+  color: var(--primary-blue);
+  transition: transform 0.3s ease;
+}
+
+.stageNoteExpanded .expandIcon {
+  transform: rotate(180deg);
+}
+
+.stageNoteContent {
+  margin-top: 0.75rem;
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  line-height: 1.6;
 }
 
 .button {

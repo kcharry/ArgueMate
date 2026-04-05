@@ -28,6 +28,7 @@ export default function DebatePage() {
 
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
+  const [noteExpanded, setNoteExpanded] = useState(false);
 
   // helper to add messages
   function addMessage(role, text) {
@@ -219,6 +220,29 @@ export default function DebatePage() {
     return styles.messageAI;
   };
 
+  const getStageNote = (currentStage) => {
+    switch (currentStage) {
+      case "user_ac":
+        return "Define the resolution and present your case for the Affirmative. Be sure to state your value(s) and criterion. Include cited evidence, reasoning, and structure your case clearly.";
+      case "user_nc":
+        return "Accept or reject the Affirmative's defintion of the resolution. Refute the Affirmative's case by addressing their claims and offer the Negative case against the resolution. Include cited evidence, reasoning, and structure your case clearly.";
+      case "ai_nc":
+      case "ai_cross":
+        return "Respond to the AI's cross-examination questions. Be direct and provide clear, concise answers.";
+      case "user_neg_cross":
+      case "user_aff_cross":
+        return "Ask questions to challenge the opponent's case. Focus on weaknesses in their evidence or reasoning. Take note of any concessions made by the opponent during this time.";
+      case "user_1ar":
+        return "Address the negative's constructive and respond to their cross-examination. Strengthen your case, but do NOT introduce new evidence.";
+      case "user_2ar":
+        return "Address all remaining issues and summarize why you win the debate. Provide clear reasons to why the judge should vote Affirmative.";
+      case "user_nr":
+        return "Respond to the affirmative's first rebuttal and address any new arguments. Provide clear reasons to why the judge should vote Negative. Do NOT bring in new evidence.";
+      default:
+        return "";
+    }
+  };
+
   return (
     <div className={styles.container}>
       <div className={styles.content}>
@@ -300,6 +324,20 @@ export default function DebatePage() {
                 : "..."
               }
             />
+            <div 
+              className={`${styles.stageNote} ${noteExpanded ? styles.stageNoteExpanded : styles.stageNoteCollapsed}`}
+              onClick={() => setNoteExpanded(!noteExpanded)}
+            >
+              <div className={styles.stageNoteHeader}>
+                <span>💡 Need Help?</span>
+                <span className={styles.expandIcon}>▼</span>
+              </div>
+              {noteExpanded && (
+                <div className={styles.stageNoteContent}>
+                  {getStageNote(stage)}
+                </div>
+              )}
+            </div>
             <button
               className={styles.button}
               onClick={() => {
@@ -315,7 +353,7 @@ export default function DebatePage() {
         {/* End State */}
         {stage === "done" && (
           <div className={styles.endState}>
-            <h2 className={styles.endStateTitle}>Debate Finished 🎉</h2>
+            <h2 className={styles.endStateTitle}>Debate Finished!</h2>
             <button
               className={styles.button}
               onClick={() => router.push('/')}
