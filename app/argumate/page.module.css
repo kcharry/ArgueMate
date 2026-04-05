@@ -1,0 +1,199 @@
+:root {
+  --primary-blue: #0066cc;
+  --primary-teal: #0099bb;
+  --secondary-purple: #6b5b95;
+  --dark-bg: #0f1419;
+  --light-bg: #f0f4f8;
+  --text-primary: #1a2332;
+  --text-secondary: #4a5568;
+  --border-color: #e2e8f0;
+  --accent-blue: #00a3e0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f0f4f8 0%, #e8f1f7 100%);
+  padding: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 102, 204, 0.1), 
+              0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 3rem 2.5rem;
+  max-width: 500px;
+  width: 100%;
+  animation: slideUp 0.6s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.heading {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(135deg, #0066cc 0%, #0099bb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+  letter-spacing: -0.5px;
+}
+
+.subtitle {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  text-align: center;
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.selectGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.select {
+  padding: 0.875rem 1rem;
+  border: 2px solid var(--border-color);
+  border-radius: 10px;
+  font-size: 1rem;
+  color: var(--text-primary);
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%230066cc' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  padding-right: 2.5rem;
+}
+
+.select:hover {
+  border-color: var(--primary-blue);
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+.select:focus {
+  outline: none;
+  border-color: var(--primary-blue);
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.15);
+}
+
+.button {
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, #0066cc 0%, #0099bb 100%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 0.5rem;
+  box-shadow: 0 6px 20px rgba(0, 102, 204, 0.3);
+}
+
+.secondaryButton {
+  margin-top: 1rem;
+  padding: 0.9rem 1.75rem;
+  background: white;
+  color: var(--primary-blue);
+  border: 2px solid var(--primary-blue);
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.secondaryButton:hover {
+  background: rgba(0, 102, 204, 0.08);
+}
+
+.learnMore {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 16px;
+  background: rgba(0, 102, 204, 0.05);
+  border: 1px solid rgba(0, 102, 204, 0.12);
+}
+
+.learnMoreHeading {
+  font-size: 1.35rem;
+  margin-bottom: 0.75rem;
+  color: var(--primary-blue);
+}
+
+.learnMoreText {
+  color: var(--text-secondary);
+  line-height: 1.75;
+  margin-bottom: 0.9rem;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(0, 102, 204, 0.4);
+}
+
+.button:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 15px rgba(0, 102, 204, 0.3);
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+@media (max-width: 640px) {
+  .card {
+    padding: 2rem 1.5rem;
+  }
+
+  .heading {
+    font-size: 2.2rem;
+  }
+
+  .button {
+    font-size: 1rem;
+    padding: 0.875rem 1.5rem;
+  }
+}
